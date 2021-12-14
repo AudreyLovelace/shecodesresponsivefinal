@@ -1,0 +1,100 @@
+* {
+  font-family: roboto;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: #212121;
+}
+
+.navlink {
+  font-size: 20px;
+  font-family: roboto;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  text-align: left;
+}
+.navbar {
+  font-family: bakbak one;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: left;
+}
+
+.navbarbtn {
+  color: white;
+}
+
+.navlink:hover,
+.navbar:hover {
+  color: rgb(194, 194, 194);
+}
+header img {
+  margin: 0 auto;
+}
+
+header div {
+  margin: -700px auto 0 auto;
+  width: 40%;
+}
+@media (max-width: 700px) {
+  header img {
+    width: 300px;
+    height: auto;
+  }
+  header div {
+    margin: -300px auto 0 auto;
+    width: 60%;
+  }
+
+  main div {
+    width: auto;
+    height: auto;
+  }
+  main div img {
+    max-width: 100%;
+    position: relative;
+  }
+
+  main {
+    padding-top: 50px;
+    display: block;
+  }
+  main div {
+    display: inline;
+  }
+  main div img {
+    display: block;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 9%;
+  }
+}
+
+header a {
+  background-color: white;
+  text-decoration: none;
+  color: #212121;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bolder;
+  transition: all 200ms ease-in-out;
+}
+header a:hover {
+  color: #212121;
+  background-color: rgb(194, 194, 194);
+}
+
+main {
+  padding-top: 100px;
+}
+main div {
+  width: 650px;
+  height: 150px;
+  margin: 15px auto;
+}
+main div img {
+  max-height: 100%;
+  margin: 5px;
+}

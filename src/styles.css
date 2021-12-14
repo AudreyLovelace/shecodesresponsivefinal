@@ -58,7 +58,6 @@ header div {
   }
 
   main {
-    padding-top: 50px;
     display: block;
   }
   main div {
@@ -68,7 +67,6 @@ header div {
     display: block;
     width: 100%;
     padding: 20px 40px;
-    border-radius: 9%;
   }
 }
 

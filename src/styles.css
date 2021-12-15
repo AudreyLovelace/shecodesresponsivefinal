@@ -6,6 +6,16 @@
   background-color: #212121;
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(/src/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: bakbak one;
+  src: url(/src/BakbakOne-Regular.ttf);
+}
+
 .navlink {
   font-size: 20px;
   font-family: roboto;
